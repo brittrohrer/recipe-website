@@ -1,0 +1,36 @@
+.navbar {
+    background-color: $pink;
+    &__title {
+        margin-left: 2rem;
+        font-size: 3rem;
+        color: $white;
+    }
+    &__list {
+        list-style-type: none;
+        margin-right: 2rem;
+    }
+    &__item {
+        display: inline;
+        padding: 1rem;
+    }
+    &__link {
+        text-decoration: none;
+        color: $white;
+        padding: .5rem;
+    }
+    &__link:hover {
+        color: $black;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .navbar {
+        &__list {
+            display:flex;
+            flex-direction: column;
+            list-style-type: none;
+        }
+        &__item {
+            padding: 0;
+        }
+    }
+}

@@ -1,0 +1,181 @@
+/* sass-utils */
+* {
+  box-sizing: border-box;
+}
+
+.page-container {
+  margin: 0;
+  margin-right: 1rem;
+}
+
+/* sass-layouts */
+.navbar {
+  background-color: #d2a1a2;
+}
+.navbar__title {
+  margin-left: 2rem;
+  font-size: 3rem;
+  color: #ffffff;
+}
+.navbar__list {
+  list-style-type: none;
+  margin-right: 2rem;
+}
+.navbar__item {
+  display: inline;
+  padding: 1rem;
+}
+.navbar__link {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 0.5rem;
+}
+.navbar__link:hover {
+  color: #494345;
+}
+
+@media only screen and (max-width: 800px) {
+  .navbar__list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+  }
+  .navbar__item {
+    padding: 0;
+  }
+}
+.page-title {
+  font-size: 4rem;
+  align-self: flex-end;
+  margin-left: auto;
+  padding: 1rem;
+  color: #494345;
+  font-weight: bold;
+}
+
+.home-header {
+  background-image: linear-gradient(rgba(135, 135, 135, 0.2), rgba(255, 255, 255, 0.7)), url(https://images.unsplash.com/photo-1594046243098-0fceea9d451e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  height: 25rem;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  background-color: #d2a1a2;
+  border-bottom: solid #d2a1a2 3px;
+}
+
+.breakfast-header {
+  background-image: linear-gradient(rgba(135, 135, 135, 0.2), rgba(255, 255, 255, 0.7)), url(https://images.unsplash.com/photo-1594046243098-0fceea9d451e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  height: 25rem;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  background-color: #d2a1a2;
+  border-bottom: solid #d2a1a2 3px;
+}
+
+.meal-header {
+  background-image: linear-gradient(rgba(135, 135, 135, 0.2), rgba(255, 255, 255, 0.7)), url(https://images.unsplash.com/photo-1594046243098-0fceea9d451e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  height: 25rem;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  background-color: #d2a1a2;
+  border-bottom: solid #d2a1a2 3px;
+}
+
+.drink-header {
+  background-image: linear-gradient(rgba(135, 135, 135, 0.2), rgba(255, 255, 255, 0.7)), url(https://images.unsplash.com/photo-1594046243098-0fceea9d451e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  height: 25rem;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  background-color: #d2a1a2;
+  border-bottom: solid #d2a1a2 3px;
+}
+
+.dessert-header {
+  background-image: linear-gradient(rgba(135, 135, 135, 0.2), rgba(255, 255, 255, 0.7)), url(https://images.unsplash.com/photo-1594046243098-0fceea9d451e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  height: 25rem;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  background-color: #d2a1a2;
+  border-bottom: solid #d2a1a2 3px;
+}
+
+.recipe-section {
+  padding-top: 2rem;
+  margin-right: 1rem;
+}
+
+.recipe {
+  margin: 0 0 2rem 2rem;
+  border-bottom: solid #d2a1a2 2px;
+  padding-bottom: 2rem;
+}
+.recipe__title {
+  font-size: 2.5rem;
+}
+.recipe__img {
+  height: 20rem;
+  width: 20rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 1rem 0;
+}
+.recipe__content {
+  color: #494345;
+}
+.recipe__info p {
+  margin: 0;
+}
+.recipe__link {
+  background-color: #d2a1a2;
+  padding: 1rem;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.ingrediants__title {
+  font-size: 1.2rem;
+}
+.ingrediants__list {
+  font-size: 1rem;
+}
+
+.directions__title {
+  font-size: 1.2rem;
+}
+.directions__list {
+  font-size: 1rem;
+}
+
+.recipe-navbar {
+  background-color: #83876f;
+  padding-top: 2rem;
+}
+.recipe-navbar__title {
+  text-align: left;
+  font-size: 1.5rem;
+  padding-left: 2rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+.recipe-navbar__list {
+  list-style-position: inside;
+  padding: 0;
+}
+.recipe-navbar__item {
+  color: #ffffff;
+  padding: 0 2rem;
+}
+.recipe-navbar__link, .recipe-navbar :visited {
+  text-decoration: none;
+  color: #ffffff;
+}
+.recipe-navbar__link:hover {
+  color: #494345;
+}
+
+/* sass-pages *//*# sourceMappingURL=main.css.map */

@@ -1,0 +1,27 @@
+.recipe-navbar {
+    background-color: $green;
+    padding-top: 2rem;
+
+    &__title {
+        text-align: left;
+        font-size: 1.5rem;
+        padding-left: 2rem;
+        font-weight: bold;
+        color: $white;
+    }
+    &__list {
+        list-style-position: inside;
+        padding: 0;
+    }
+    &__item {
+        color: $white;
+        padding: 0 2rem;
+    }
+    &__link, :visited {
+        text-decoration: none;
+        color: $white;
+    }
+    &__link:hover {
+        color: $black;
+    }
+}

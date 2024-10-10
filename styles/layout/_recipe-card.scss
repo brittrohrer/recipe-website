@@ -1,0 +1,52 @@
+.recipe-section {
+    padding-top: 2rem;
+    margin-right: 1rem;
+}
+.recipe {
+    margin: 0 0 2rem 2rem;
+    border-bottom: solid $pink 2px;
+    padding-bottom: 2rem;
+
+    &__title {
+        font-size: 2.5rem;
+    }
+
+    &__img {
+        height: 20rem;
+        width: 20rem; 
+        object-fit: cover;
+        padding: 1rem 0 ;
+    }
+    &__content {
+        color: $black;
+    }
+    &__info p {
+        margin: 0;
+    }
+    &__link {
+        background-color: $pink;
+        padding: 1rem;
+        text-decoration: none;
+        color: $white;
+        border-radius: 10px;
+    }
+}
+.ingrediants {
+
+    &__title {
+        font-size: 1.2rem;
+    }
+    &__list {
+        font-size: 1rem;
+    }
+}
+
+.directions {
+
+    &__title {
+        font-size: 1.2rem;
+    }
+    &__list {
+        font-size: 1rem;
+    }
+}

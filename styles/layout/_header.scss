@@ -1,0 +1,68 @@
+.page-title {
+    font-size: 4rem;
+    align-self: flex-end;
+    margin-left: auto;
+    padding: 1rem;
+    color: $black;
+    font-weight: bold;
+}
+.home-header {
+    background-image: linear-gradient(
+        rgba(135, 135, 135, 0.2),
+        rgba(255, 255, 255, 0.7)
+      ), url(https://images.unsplash.com/photo-1594046243098-0fceea9d451e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    height: 25rem;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    background-color: $pink;
+    border-bottom: solid $pink 3px;
+}
+.breakfast-header {
+    background-image: linear-gradient(
+        rgba(135, 135, 135, 0.2),
+        rgba(255, 255, 255, 0.7)
+      ), url(https://images.unsplash.com/photo-1594046243098-0fceea9d451e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    height: 25rem;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    background-color: $pink;
+    border-bottom: solid $pink 3px;
+}
+.meal-header {
+    background-image: linear-gradient(
+        rgba(135, 135, 135, 0.2),
+        rgba(255, 255, 255, 0.7)
+      ), url(https://images.unsplash.com/photo-1594046243098-0fceea9d451e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    height: 25rem;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    background-color: $pink;
+    border-bottom: solid $pink 3px;
+}
+.drink-header {
+    background-image: linear-gradient(
+        rgba(135, 135, 135, 0.2),
+        rgba(255, 255, 255, 0.7)
+      ), url(https://images.unsplash.com/photo-1594046243098-0fceea9d451e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    height: 25rem;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    background-color: $pink;
+    border-bottom: solid $pink 3px;
+}
+.dessert-header {
+    background-image: linear-gradient(
+        rgba(135, 135, 135, 0.2),
+        rgba(255, 255, 255, 0.7)
+      ), url(https://images.unsplash.com/photo-1594046243098-0fceea9d451e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    height: 25rem;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    background-color: $pink;
+    border-bottom: solid $pink 3px;
+}
